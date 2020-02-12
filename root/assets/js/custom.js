@@ -15,5 +15,5 @@ function() {
     });
   });
 $(function () {
-$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+$("#mdb-lightbox-ui").load("assets/mdb-addons/mdb-lightbox-ui.html");
 });
