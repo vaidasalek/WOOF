@@ -5,6 +5,9 @@
 	border-radius: 5px;
 
 }
+..custom-button:hover {
+	color: #0C9D8A;
+}
 .custom-logo {
 	width: 50px;
 	vertical-align: middle;
@@ -55,7 +58,6 @@
 }
 #quote-carousel img
 {
-  width: 250px;
   height: 100px
 }
 /* End carousel */
@@ -117,172 +119,64 @@
 }
 /* Ratings, Reviews bar */
 /*Archive*/
-img { max-width:100%; }
-
-a {
-    -webkit-transition: all 150ms ease;
-	-moz-transition: all 150ms ease;
-	-ms-transition: all 150ms ease;
-	-o-transition: all 150ms ease;
-	transition: all 150ms ease;
-	}
-
-a:hover {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-    filter: alpha(opacity=50);
-    opacity: 0.6;
-    text-decoration: none;
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
 }
 
-.thumbnails li> .fff .caption {
-    background:#fff !important;
-    padding:10px
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
 }
 
-/* Page Header */
-.page-header {
-    background: #f9f9f9;
-    margin: -30px -40px 40px;
-    padding: 20px 40px;
-    border-top: 4px solid #ccc;
-    color: #999;
-    text-transform: uppercase;
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
 }
 
-.page-header h3 {
-    line-height: 0.88rem;
-    color: #000;
+.tz-gallery {
+    padding: 40px;
 }
 
-ul.thumbnails {
-    margin-bottom: 0px;
-}
-
-
-
-/* Thumbnail Box */
-.caption h4 {
-    color: #444;
-}
-
-.caption p {
-    color: #999;
-}
-
-
-
-/* Carousel Control */
-.control-box {
-    text-align: right;
+.tz-gallery .lightbox img {
     width: 100%;
-}
-.carousel-control{
-    background: #666;
-    border: 0px;
-    border-radius: 0px;
-    display: inline-block;
-    font-size: 34px;
-    font-weight: 200;
-    line-height: 18px;
-    opacity: 0.5;
-    padding: 4px 10px 0px;
-    position: static;
-    height: 30px;
-    width: 15px;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 }
 
 
-
-/* Mobile Only */
-
-
-
-li { list-style-type:none;}
-
-::selection { background: #ff5e99; color: #FFFFFF; text-shadow: 0; }
-::-moz-selection { background: #ff5e99; color: #FFFFFF; }
-
-/*Archive*/
-/* Style the Image Used to Trigger the Modal */
-#myImg {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
 }
 
-#myImg:hover {opacity: 0.7;}
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+.tz-gallery img {
+    border-radius: 4px;
 }
 
-/* Modal Content (Image) */
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
+.baguetteBox-button {
+    background-color: transparent !important;
 }
 
-/* Caption of Modal Image (Image Text) - Same Width as the Image */
-#caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
-}
 
-/* Add Animation - Zoom in the Modal */
-.modal-content, #caption {
-  animation-name: zoom;
-  animation-duration: 0.6s;
-}
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
 
-@keyframes zoom {
-  from {transform:scale(0)}
-  to {transform:scale(1)}
+    .container.gallery-container {
+        border-radius: 0;
+    }
 }
-
-/* The Close Button */
-.close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-  .modal-content {
-    width: 100%;
-  }
-}
-
 /*Button*/
 .contact-button {
 		display: block;
@@ -295,10 +189,48 @@ li { list-style-type:none;}
 	width: 50%;
 	text-align: center;
 }
+.contact-button:hover {
+	text-decoration: none;
+	color: #0C9D8A;
+}
 /*Button*/
 .centered-text {
 	text-align:center;
 }
 .custom-layout {
 	display: block;
+}
+.stars-employee-info-margin {
+	margin-left: 95px;
+}
+.margin-left-custom {
+	margin-left: 10px;
+}
+.join-custom-list {
+	list-style: disc;
+}
+.custom-form-footer {
+	 bottom: 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+.active-message {
+	position: fixed;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    left: 15px;
+    bottom: 15px;
+    background: #5E2F68;
+    color: #fff;
+    z-index: 99999;
+}
+.gallery-custom {
+	width: 100px;
+}
+@media only screen and (max-width: 500px) {
+  .custom-form-footer {
+    position: relative;
+  }
 }

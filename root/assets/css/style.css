@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   border-radius: 3px;
   right: 15px;
   bottom: 15px;
-  background: #428bca;
+  background: #5E2F68;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 .back-to-top:hover {
   color: #fff;
-  background: #629fd3;
+  background: rgba(94, 47, 104, 0.7);
   transition: background 0.2s ease-in-out;
 }
 
@@ -271,7 +271,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #9eccf4;
+  color: #0C9D8A;
   text-decoration: none;
 }
 
@@ -316,7 +316,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .mobile-nav-toggle i {
-  color: #5c768d;
+  color: #5E2F68;
 }
 
 .mobile-nav-overly {
@@ -563,12 +563,12 @@ section {
 }
 
 .about .icon-box .icon i {
-  color: #428bca;
+  color: #5E2F68;
   font-size: 32px;
 }
 
 .about .icon-box:hover .icon {
-  background: #428bca;
+  background: #5E2F68;
 }
 
 .about .icon-box:hover .icon i {
@@ -800,7 +800,7 @@ section {
   background: #fff;
   border-radius: 50%;
   transition: 0.5s;
-  color: #428bca;
+  color: #5E2F68;
   font-size: 40px;
   overflow: hidden;
   padding-top: 20px;
@@ -808,7 +808,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  box-shadow: 0px 0 30px rgba(66, 139, 202, 0.5);
+  box-shadow: 0px 0 30px rgba(12, 157, 138, 0.5);
 }
 
 .services .title {
@@ -825,7 +825,7 @@ section {
 }
 
 .services .title a:hover {
-  color: #428bca;
+  color: #0C9D8A;
 }
 
 .services .title::after {
@@ -834,7 +834,7 @@ section {
   display: block;
   width: 50px;
   height: 2px;
-  background: #428bca;
+  background: #5E2F68;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -1010,7 +1010,7 @@ section {
   left: calc(50% - 25px);
 }
 
-.team .member #city-name {
+.team .member .city-name {
   font-style: italic;
   display: block;
   font-size: 13px;
@@ -1163,15 +1163,18 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #428bca;
+  background: #5E2F68;
   border: 0;
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
+	font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+	border-radius: 5px;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #6aa3d5;
+color: #0C9D8A;
 }
 
 @-webkit-keyframes animate-loading {
