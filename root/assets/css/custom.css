@@ -220,7 +220,7 @@
     width: 40px;
     height: 40px;
     border-radius: 3px;
-    left: 15px;
+    right: 15px;
     bottom: 15px;
     background: #5E2F68;
     color: #fff;
@@ -228,6 +228,9 @@
 }
 .gallery-custom {
 	width: 100px;
+}
+.tz-gallery img {
+	max-width: 100%;
 }
 @media only screen and (max-width: 500px) {
   .custom-form-footer {

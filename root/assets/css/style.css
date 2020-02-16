@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   width: 40px;
   height: 40px;
   border-radius: 3px;
-  right: 15px;
+  left: 15px;
   bottom: 15px;
   background: #5E2F68;
   color: #fff;
@@ -566,15 +566,6 @@ section {
   color: #5E2F68;
   font-size: 32px;
 }
-
-.about .icon-box:hover .icon {
-  background: #5E2F68;
-}
-
-.about .icon-box:hover .icon i {
-  color: #fff;
-}
-
 .about .icon-box .title {
   margin-left: 95px;
   font-weight: 700;
