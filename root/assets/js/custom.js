@@ -5,5 +5,4 @@ function() {
     pause: true,
     interval: 4000,
   });
-
 });
